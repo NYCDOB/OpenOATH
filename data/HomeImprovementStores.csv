@@ -1,0 +1,346 @@
+ID,Name,Address,Borough,HouseNum,Street,BoroCode,BIN,LAT,LONG
+1,The Home Depot,40 W 23rd St,MANHATTAN,40,W 23rd St,1,1080673,40.74175,-73.991256
+2,The Home Depot,980 3rd Ave,MANHATTAN,980,3rd Ave,1,1086160,40.761576,-73.967631
+3,Manhattan Hardware & Housewares Inc.,688 9th Ave,MANHATTAN,688,9th Ave,1,1025084,40.761728,-73.989893
+4,West Side Home Center Inc,778 9th Ave,MANHATTAN,778,9th Ave,1,1078889,40.764509,-73.987802
+5,Midtown Hardware,815 2nd Ave,MANHATTAN,815,2nd Ave,1,1037561,40.75084,-73.971841
+6,Brickman's Ace Hardware Lower East Side,55 1st Ave.,MANHATTAN,55,1st Ave.,1,1006180,40.725047,-73.987571
+7,Saifee Hardware & Garden,114 1st Ave.,MANHATTAN,114,1st Ave.,1,1005775,40.726738,-73.98559
+8,M & D Shapiro True Value Hardware,7 Great Jones St,MANHATTAN,7,Great Jones St,1,1008474,40.727257,-73.994141
+9,Simon's Hardware & Bath,421 3rd Ave,MANHATTAN,421,3rd Ave,1,1019917,40.742731,-73.979885
+10,Brickman's Ace Hardware West Village,125 W 3rd St,MANHATTAN,125,W 3rd St,1,1008767,40.730859,-74.000494
+11,Hardware N.Y. Inc.,2035 2nd Ave,MANHATTAN,2035,2nd Ave,1,1052390,40.789857,-73.943396
+12,Columbus Hardware,842 9th Avenue,MANHATTAN,842,9th Avenue,1,1025422,40.766584,-73.986051
+13,Stellar Hardware & Bath,900 2nd Ave,MANHATTAN,900,2nd Ave,1,1038905,40.753178,-73.96936
+14,Garber Hardware,207a 9th Ave,MANHATTAN,207,9th Ave,1,1012697,40.746361,-74.001743
+15,Rainbow ACE Hardware,1449 1st Ave.,MANHATTAN,1449,1st Ave.,1,1045148,40.770328,-73.954789
+16,JM Hardware Locksmith,19 E 21st St,MANHATTAN,19,E 21st St,1,1016245,40.739834,-73.98894
+17,Garden Hardware & Supply,701 10th Ave,MANHATTAN,701,10th Ave,1,1026997,40.763398,-73.993123
+18,Basics Plus,2315 Broadway,MANHATTAN,2315,Broadway,1,1032791,40.787036,-73.978149
+19,Nuthouse Hardware,202 E 29th St,MANHATTAN,202,E 29th St,1,1019910,40.742182,-73.980033
+20,"73rd Street Hardware, Inc.",65 W 73rd St,MANHATTAN,65,W 73rd St,1,1028650,40.778168,-73.977866
+21,Elegance in Hardware and Bath,860 Lexington Ave,MANHATTAN,860,Lexington Ave,1,1042382,40.765866,-73.965846
+22,Prince Hardware,436 W 18th St,MANHATTAN,436,W 18th St,1,1012550,40.743882,-74.005139
+23,TRIBECA PAINT ace hardware ,217 W Broadway,MANHATTAN,217,W Broadway,1,1079284,40.719009,-74.006086
+24,Max pro hardware,2617 Broadway,MANHATTAN,2617,Broadway,1,1056410,40.796564,-73.970901
+25,Manhattan Home Improvement Referral,244 5th Ave,MANHATTAN,244,5th Ave,1,1015690,40.744634,-73.987744
+26,Lexington Hardware & Electric Co,797 Lexington Ave,MANHATTAN,797,Lexington Ave,1,1041996,40.76381,-73.966709
+27,Rivington Discount & Hardware,166 Rivington St,MANHATTAN,166,Rivington St,1,1004125,40.71916,-73.984841
+28,Warshaw Hardware,248 3rd Ave,MANHATTAN,248,3rd Ave,1,1017962,40.737289,-73.984628
+29,Mike's Lumber & Hardware,254 W 88th St,MANHATTAN,254,W 88th St,1,1033221,40.789646,-73.976205
+30,Lower eastside hardware,98 Clinton St,MANHATTAN,98,Clinton St,1,1004194,40.718172,-73.985357
+31,hardware store Hercules Supply House,213 E 84th St,MANHATTAN,213,E 84th St,1,1048727,40.777444,-73.95421
+32,Garber Hardware,710 Greenwich St,MANHATTAN,710,Greenwich St,1,1011760,40.733886,-74.007563
+33,Kove Bro. True Value Hardware,189 7th Ave,MANHATTAN,189,7th Ave,1,1080584,40.742796,-73.996243
+34,H & W Hardware,220 1st Ave.,MANHATTAN,220,1st Ave.,1,1006010,40.730715,-73.982699
+35,Dick's Cut-Rate Hardware INC.,9 Gold St,MANHATTAN,9,Gold St,1,1001112,40.707759,-74.007437
+36,Mega Building Supply - Upper West Side,2387 Broadway,MANHATTAN,2387,Broadway,1,1033206,40.7893,-73.976176
+37,BEACON HARDWARE,371 Amsterdam Ave,MANHATTAN,371,Amsterdam Ave,1,1030226,40.782101,-73.978674
+38,Admore Hardware & Lock,11 E 33rd St,MANHATTAN,11,E 33rd St,1,1017076,40.747678,-73.984265
+39,Bowery Home Supplies,270 Bowery,MANHATTAN,270,Bowery,1,1007868,40.723607,-73.993203
+40,Scheman's Bryant Park,55 W 39th St,MANHATTAN,55,W 39th St,1,1016035,40.752865,-73.984754
+41,Brickman's Ace Hardware Stuy Town,312-316 1st Ave.,MANHATTAN,312,1st Ave.,1,1082864,40.731724,-73.977896
+42,M&M Hardware Store & More,258 Manhattan Ave,MANHATTAN,258,Manhattan Ave,1,1055754,40.801605,-73.958946
+43,Casa Hardware & Locksmith Inc.,2748 Broadway,MANHATTAN,2748,Broadway,1,1056608,40.800639,-73.967623
+44,S & V True Value Hardware,1450 1st Ave.,MANHATTAN,1450,1st Ave.,1,1045920,40.769916,-73.954074
+45,S Feldman Housewares,1304 Madison Ave,MANHATTAN,1304,Madison Ave,1,1047066,40.785059,-73.956046
+46,The Upper Westside Hardware,2672 Broadway,MANHATTAN,2672,Broadway,1,1056517,40.79815,-73.968726
+47,El Barrio Hardware,1876 3rd Ave,MANHATTAN,1876,3rd Ave,1,1051926,40.790102,-73.946115
+48,Lumber Boys,699 2nd Ave,MANHATTAN,699,2nd Ave,1,1020340,40.747256,-73.974445
+49,Gartner's Hardware,162 W 72nd St,MANHATTAN,162,W 72nd St,1,1029900,40.778086,-73.98112
+50,C & S True Value Hardware,788 Amsterdam Ave,MANHATTAN,788,Amsterdam Ave,1,1056403,40.795825,-73.969456
+51,New York Paint & Hardware - Benjamin Moore Yorkville,1668 1st Ave.,MANHATTAN,1668,1st Ave.,1,1050569,40.777535,-73.948534
+52,Garcia Hardware & Households,995 Columbus Ave,MANHATTAN,995,Columbus Ave,1,1055735,40.800722,-73.961381
+53,Mikco Building Materials,179 Chrystie St,MANHATTAN,179,Chrystie St,1,1084641,40.721493,-73.992464
+54,Union Square Supply,130 4th Ave,MANHATTAN,130,4th Ave,1,1009212,40.733098,-73.990279
+55,GC Warehouse NYC,417 W 50th St,MANHATTAN,417,W 50th St,1,1026678,40.764092,-73.989798
+56,Safety Hardware Store,1713 2nd Ave,MANHATTAN,1713,2nd Ave,1,1048852,40.779757,-73.950727
+57,New York Paint & Hardware,1587 1st Ave.,MANHATTAN,1587,1st Ave.,1,1049892,40.774759,-73.951273
+58,Mushtari Hardware & Garden,31 W 125th St,MANHATTAN,31,W 125th St,1,1053502,40.80722,-73.94345
+59,International Electrical & Hardware Supplies Corp,77 Allen St,MANHATTAN,77,Allen St,1,1077619,40.717911,-73.991486
+60,University Hardware Housewares,2906 Broadway,MANHATTAN,2906,Broadway,1,1057018,40.80612,-73.964687
+61,United Hardware,2160 Frederick Douglass Blvd,MANHATTAN,2160,Frederick Douglass Blvd,1,1058363,40.804563,-73.954971
+62,The Brass Center,248 E 58th St,MANHATTAN,248,E 58th St,1,1038620,40.759951,-73.965318
+63,Hakimi Hardware,2128 3rd Ave,MANHATTAN,2128,3rd Ave,1,1052300,40.798224,-73.940171
+64,Home Improvement Manhattan NYC - ELRemodeling,352 W 48th St,MANHATTAN,352,W 48th St,1,1025116,40.761781,-73.989373
+65,J & M Hardware & Houseware Inc,198 E 112th St,MANHATTAN,198,E 112th St,1,,40.79523875,-73.94179883
+66,105 Columbus Hardware,908 Columbus Ave,MANHATTAN,908,Columbus Ave,1,1055921,40.798442,-73.963868
+67,Brickman's Columbus Ave,610 Columbus Ave,MANHATTAN,610,Columbus Ave,1,1032439,40.788871,-73.970853
+68,Sugar Hill Hardware,529 W 145th St,MANHATTAN,529,W 145th St,1,1061932,40.826153,-73.949071
+69,Home Perfect,100 Church St,MANHATTAN,100,Church St,1,1001409,40.713286,-74.010136
+70,Scheman & Grant Hardware,545 8th Ave,MANHATTAN,545,8th Ave,1,1013622,40.754499,-73.992182
+71,True Value,590 9th Ave,MANHATTAN,590,9th Ave,1,1024935,40.758616,-73.991907
+72,The Home Depot,600 Exterior Street,BRONX,600,Exterior Street,2,2119101,40.822857,-73.929851
+73,The Home Depot,2560 Bruckner Blvd,BRONX,2560,Bruckner Blvd,2,2090618,40.827197,-73.839098
+74,The Home Depot,1806 E Gun Hill Rd,BRONX,1806,E Gun Hill Rd,2,2100885,40.861892,-73.832752
+75,Nunez Depot,2800 3rd Ave,BRONX,2800,3rd Ave,2,2000681,40.815113,-73.918696
+76,Morales Brothers Hardware (Southern Hardware Corp),591 Southern Blvd,BRONX,591,Southern Blvd,2,2005082,40.81297,-73.902312
+77,Van Nest Hardware,669 Morris Park Ave,BRONX,669,Morris Park Ave,2,2043407,40.845276,-73.86721
+78,H & H Hardware,1171 Castle Hill Ave,BRONX,1171,Castle Hill Ave,2,2026489,40.831393,-73.851186
+79,J T Hardware & Houseware Store,2107 Grand Concourse,BRONX,2107,Grand Concourse,2,2013749,40.85444,-73.902533
+80,Dan Ray Supply True Value,309 E 167th St,BRONX,309,E 167th St,2,2002288,40.832154,-73.913378
+81,NEW GENERATION HARDWARE STORE,1800 Dr Martin Luther King Blvd,BRONX,1800,Dr Martin Luther King Blvd,2,,40.85053092,-73.91485866
+82,Fredy's Hardware,199 E 167th St,BRONX,199,E 167th St,2,,40.83440459,-73.91668319
+83,Gonzalez Hardware,11 E 167th St,BRONX,11,E 167th St,2,,40.8360334,-73.92159888
+84,Ace Hardware New York,5760 Broadway,BRONX,5760,Broadway,2,2094714,40.88366,-73.90109
+85,163 Progreso Hardware,921 E 163rd St,BRONX,921,E 163rd St,2,,40.82119743,-73.89743602
+86,Renel Hardware Inc,605 Soundview Ave,BRONX,605,Soundview Ave,2,2021853,40.81738,-73.86234
+87,Statewide Supply,310 Walton Ave,BRONX,310,Walton Ave,2,,40.81484177,-73.92964746
+88,Vargas Hardware & Paint Store,63 W Kingsbridge Rd,BRONX,63,W Kingsbridge Rd,2,,40.86828722,-73.90008174
+89,Albahri Hardware & Houseware,696 E 187th St,BRONX,696,E 187th St,2,,40.85397417,-73.88436254
+90,S&J True Value,608 E 133rd St,BRONX,608,E 133rd St,2,,40.80254663,-73.91839802
+91,Pelham Bay Home Center,3073 Westchester Ave,BRONX,3073,Westchester Ave,2,,40.84905584,-73.83086661
+92,"Castle Home Improvement, LLC Bronx",1402 Castle Hill Ave,BRONX,1402,Castle Hill Ave,2,2041465,40.83582,-73.85176
+93,Ancla Hardware Ferreteria Store,1388 Jesup Ave,BRONX,1388,Jesup Ave,2,2008657,40.84069,-73.92079
+94,1581 Hardware Corp.,1581 Unionport Rd,BRONX,1581,Unionport Rd,2,2096612,40.83767,-73.86199
+95,Morris Hardware,271 E 170th St,BRONX,271,E 170th St,2,,40.83804038,-73.91106374
+96,Westchester Hardware Supply,1577 Westchester Ave,BRONX,1577,Westchester Ave,2,2025283,40.82915,-73.87683
+97,DT Hardware And Houseware,217 W 231st St # A,BRONX,217,W 231st St # A,2,,40.87940603,-73.90534506
+98,Harrow Lumber & Hardware Co,75 W Tremont Ave,BRONX,75,W Tremont Ave,2,,40.85102061,-73.91257887
+99,NHS Hardware,4361 White Plains Rd,BRONX,4361,White Plains Rd,2,,40.89748119,-73.85538808
+100,Sma Garden Hardware Inc.,1363 Webster Ave,BRONX,1363,Webster Ave,2,,40.83593391,-73.90794176
+101,Sammy's Hardware & Plumbing Supplies,105 E 183rd St,BRONX,105,E 183rd St,2,,40.85817196,-73.9016221
+102,AA Hardware,1121 Southern Blvd,BRONX,1121,Southern Blvd,2,,40.82697021,-73.89226639
+103,Allerton Hardware & Discount,747 Allerton Ave,BRONX,747,Allerton Ave,2,,40.86564692,-73.86559478
+104,CS Brown Company Inc.,12 E Tremont Ave,BRONX,12,E Tremont Ave,2,,40.85131612,-73.90877929
+105,Highbridge Hardware Corp,1048 Ogden Ave,BRONX,1048,Ogden Ave,2,2003211,40.83419,-73.92847
+106,AM Hardware & Discount Inc,765 E Tremont Ave,BRONX,765,E Tremont Ave,2,,40.84439279,-73.88852065
+107,Pelham Bay Discount & Hardware,3113B Westchester Ave,BRONX,3113,Westchester Ave,2,2124414,40.84959,-73.83071
+108,163 Progreso Hardware,866 Hunts Point Ave,BRONX,866,Hunts Point Ave,2,2006435,40.81843,-73.88865
+109,Jack's Hardware & Supply Co,3202 3rd Ave,BRONX,3202,3rd Ave,2,2004365,40.82272,-73.90901
+110,Burke Hardware,715 Burke Ave,BRONX,715,Burke Ave,2,2056236,40.8717,-73.86648
+111,Flannery's Home Center,3395 E Tremont Ave,BRONX,3395,E Tremont Ave,2,,40.83364698,-73.82826392
+112,Gabi's Hardware,2030 Jerome Ave,BRONX,2030,Jerome Ave,2,,40.85320676,-73.90748556
+113,Gerrys Hardware inc,82 E 167th St,BRONX,82,E 167th St,2,,40.83508662,-73.92002874
+114,784 Hardware,784 E Tremont Ave,BRONX,784,E Tremont Ave,2,,40.84378739,-73.8883972
+115,"Roa Hardware Center, Corp",4175 Park Ave,BRONX,4175,Park Ave,2,2009462,40.84681,-73.90047
+116,Ferreteria Apartment House Supply,678 Morris Park Ave,BRONX,678,Morris Park Ave,2,2043017,40.84486,-73.86658
+117,AA2 Hardware,2014 Williamsbridge Rd,BRONX,2014,Williamsbridge Rd,2,,40.8547849,-73.85454356
+118,2 flags hardware,1190 Prospect Ave,BRONX,1190,Prospect Ave,2,,40.82667237,-73.89839543
+119,Jerry's Hardware,296 E 204th St,BRONX,296,E 204th St,2,,40.87308984,-73.87892596
+120,L&R Hardware-Ferreteria,242 E 204th St,BRONX,242,E 204th St,2,,40.87387294,-73.88446452
+121,The Promised Land Hardware Store LLC.,980 Longwood Ave,BRONX,980,Longwood Ave,2,,40.81690449,-73.89771054
+122,Superior Paint Hardware & Housewares,1059 Morris Park Ave,BRONX,1059,Morris Park Ave,2,2045539,40.84925,-73.8544
+123,Mejia Hardware,775 Lydig Ave,BRONX,775,Lydig Ave,2,,40.85457035,-73.86461015
+124,Master Hardware,779 E 169th St,BRONX,779,E 169th St,2,,40.8306785,-73.89930218
+125,Schmuger Hardware,501 E 164th St,BRONX,501,E 164th St,2,,40.82586533,-73.90888592
+126,Best Value NY INC.,4130 Park Ave,BRONX,4130,Park Ave,2,,40.84558232,-73.89986847
+127,Harbor Freight Tools,2441 Boston Rd,BRONX,2441,Boston Rd,2,,40.86223187,-73.86703185
+128,J Line Inc,691 Bruckner Blvd,BRONX,691,Bruckner Blvd,2,2094272,40.8131,-73.8991
+129,2 Flags Hardware Plumbing Electrical,1229 White Plains Rd,BRONX,1229,White Plains Rd,2,,40.83138995,-73.86240516
+130,M M & D Supplies,117 E 183rd St,BRONX,117,E 183rd St,2,,40.85710339,-73.89935506
+131,Bedford Hardware,391 Bedford Park Blvd,BRONX,391,Bedford Park Blvd,2,2016448,40.86779,-73.88365
+132,Mensch Mill & Lumber (HQ),1261 Commerce Ave,BRONX,1261,Commerce Ave,2,,40.83519077,-73.84017021
+133,Fairbanks Lumber True Value,4527 White Plains Rd,BRONX,4527,White Plains Rd,2,,40.90088567,-73.85274056
+134,The B Electric And Hardware,4807 White Plains Rd,BRONX,4807,White Plains Rd,2,2095170,40.90619,-73.84954
+135,ELY Hardware,349 E 194th St,BRONX,349,E 194th St,2,,40.86405528,-73.89093896
+136,Landlords Depot,551 E 179th St,BRONX,551,E 179th St,2,,40.8488523,-73.89369688
+137,S and c hardware,1773 Southern Blvd,BRONX,1773,Southern Blvd,2,,40.83781711,-73.88778571
+138,Azteca Hardware Store,709 Mace Ave,BRONX,709,Mace Ave,2,,40.86331902,-73.86692289
+139,A-Z Apartment Building Supply,829 Westchester Ave,BRONX,829,Westchester Ave,2,,40.81954795,-73.90232883
+140,Tejada Hardware,2362 University Ave,BRONX,2362,University Ave,2,,40.86238076,-73.90487663
+141,Friends Double Discount,1371 Castle Hill Ave,BRONX,1371,Castle Hill Ave,2,2029042,40.83572,-73.85245
+142,99 Cent Discount & Hardware Store,52b W Burnside Ave,BRONX,52,W Burnside Ave,2,,40.85387297,-73.90979839
+143,Richie's Hardware,1309 Boston Rd,BRONX,1309,Boston Rd,2,,40.8315603,-73.90018585
+144,"Star Gate & Empire Locksmith, Inc.",2094 White Plains Rd,BRONX,2094,White Plains Rd,2,,40.85318976,-73.867467
+145,Skaller Supply,3232 Boston Rd,BRONX,3232,Boston Rd,2,2056680,40.87188,-73.85493
+146,Ace kitchens and Appliances,4144 Park Ave,BRONX,4144,Park Ave,2,2009522,40.84583,-73.89974
+147,Longo Kitchen and Bath,1084 Morris Park Ave,BRONX,1084,Morris Park Ave,2,2045009,40.84915,-73.85323
+149,Riverdale Home Center,5782 Broadway,BRONX,5782,Broadway,2,2016176,40.88404,-73.90086
+150,Lowe's Home Improvement,118 2nd Ave,BROOKLYN,118,2nd Ave,3,3022201,40.67215,-73.99505
+151,The Home Depot,230 Nostrand Ave.,BROOKLYN,230,Nostrand Ave.,3,3823194,40.69185,-73.95285
+152,Crest Hardware & Urban Garden Center,558 Metropolitan Ave,BROOKLYN,558,Metropolitan Ave,3,3068782,40.71381,-73.95025
+153,The Home Depot,550 Hamilton Ave,BROOKLYN,550,Hamilton Ave,3,3008890,40.66777,-73.9985
+154,House & Home Hardware,519 Flushing Ave,BROOKLYN,519,Flushing Ave,3,3335449,40.69953,-73.95429
+155,Ace Hardware Bruno's Home Center,85 Court St,BROOKLYN,85,Court St,3,3002649,40.69127,-73.99129
+156,Florama Hardware,98 Graham Ave,BROOKLYN,98,Graham Ave,3,3325952,40.70461,-73.94244
+157,R T Building Supplies and Hardware,646 Franklin Ave,BROOKLYN,646,Franklin Ave,3,3028310,40.67631,-73.95623
+158,Park Ave True Value Home Center,2074 Atlantic Ave,BROOKLYN,2074,Atlantic Ave,3,3391302,40.67641,-73.91788
+159,B & G Hardware,210 Roebling St,BROOKLYN,210,Roebling St,3,3062989,40.71243,-73.95917
+160,The Home Depot,579 Gateway Dr,BROOKLYN,579,Gateway Dr,3,3348834,40.6537,-73.86861
+161,Lowe's Home Improvement,5602 Avenue U,BROOKLYN,5602,Avenue U,3,,40.61172317,-73.91922836
+162,Clinton Hill Ace Hardware,452 Myrtle Ave,BROOKLYN,452,Myrtle Ave,3,3054813,40.69305,-73.96737
+163,Brooklyn Hardware Supply co,64 5th Ave,BROOKLYN,64,5th Ave,3,3018547,40.68119,-73.97752
+164,Hardware Express True Value,829 E New York Ave,BROOKLYN,829,E New York Ave,3,,40.6627013,-73.93530236
+165,Aurora Hardware & Locksmith,136 Bedford Ave,BROOKLYN,136,Bedford Ave,3,3061680,40.71931,-73.95645
+166,R & A Hardware,109 5th Ave,BROOKLYN,109,5th Ave,3,3018993,40.67926,-73.97824
+167,Fulton Home Center and Hardware Corporation,1310 Fulton St,BROOKLYN,1310,Fulton St,3,,40.68021214,-73.94831393
+168,Home value hardware,1280 Nostrand Ave.,BROOKLYN,1280,Nostrand Ave.,3,3348903,40.65586,-73.95039
+169,Big Brothers Discount Hardware,1327 Fulton St,BROOKLYN,1327,Fulton St,3,3053251,40.68057,-73.9483
+170,13th Avenue Home Center,4405 13th Ave,BROOKLYN,4405,13th Ave,3,3136462,40.6375,-73.98913
+171,The Home Depot,5700 Avenue U,BROOKLYN,5700,Avenue U,3,,40.61262112,-73.91668705
+172,Mayday Hardware,755 Washington Ave,BROOKLYN,755,Washington Ave,3,,40.6742043,-73.96282235
+173,Crown hardware and plumbing,1503 St Johns Pl,BROOKLYN,1503,St Johns Pl,3,,40.67066277,-73.92834117
+174,Mazzone Ace Hardware,476 Bergen St,BROOKLYN,476,Bergen St,3,3018599,40.68069,-73.97562
+175,Leopoldi Hardware,415 5th Ave,BROOKLYN,415,5th Ave,3,3021881,40.66989,-73.98534
+176,Segedin Discount Hardware & Housware,179 Lee Ave,BROOKLYN,179,Lee Ave,3,3060813,40.70273,-73.95626
+177,Tarzian Hardware,193 7th Ave,BROOKLYN,193,7th Ave,3,3025285,40.67085,-73.97794
+178,Do it Best Hardware of Clinton Hill Benjamin Moore paint store,900 Fulton St,BROOKLYN,900,Fulton St,3,3399792,40.68288,-73.96522
+179,Park Slope Hardware,593 5th Ave,BROOKLYN,593,5th Ave,3,3024168,40.66434,-73.98997
+180,Prosperity Hardware Store,1559 Fulton St,BROOKLYN,1559,Fulton St,3,3338753,40.68006,-73.93891
+181,Garvey's Hardware,583 Nostrand Ave.,BROOKLYN,583,Nostrand Ave.,3,3030035,40.67726,-73.94955
+182,CNS Family Hardware,584 5th Ave,BROOKLYN,584,5th Ave,3,3024135,40.66464,-73.99042
+183,Greschlers Hardware,660 5th Ave,BROOKLYN,660,5th Ave,3,3800409,40.66257,-73.99265
+184,Hardware store N discount corp,4106 5th Ave,BROOKLYN,4106,5th Ave,3,3010747,40.65012,-74.0055
+185,Wholesome Hardware,326 Roebling St,BROOKLYN,326,Roebling St,3,,40.70859531,-73.96121251
+186,Prospect Hardware,517 7th Ave,BROOKLYN,517,7th Ave,3,,40.66074563,-73.98668997
+187,Brooklyn Hardware supplies,1260 36th St,BROOKLYN,1260,36th St,3,3123192,40.6425,-73.98547
+188,Mazzone Hardware,470 Court St,BROOKLYN,470,Court St,3,3005422,40.6781,-73.99823
+189,United True Value Hardware,7905 3rd Ave,BROOKLYN,7905,3rd Ave,3,3336330,40.62828,-74.02876
+190,Nostrand True Value Hardware,1785 Nostrand Ave.,BROOKLYN,1785,Nostrand Ave.,3,3111295,40.64228,-73.94834
+191,16th Avenue Home Center,4704 16th Ave,BROOKLYN,4704,16th Ave,3,3128801,40.63216,-73.9847
+192,Flat Hardware,572 Flatbush Ave,BROOKLYN,572,Flatbush Ave,3,3403976,40.65968,-73.96089
+193,Qualified Hardware,614 Bergen St,BROOKLYN,614,Bergen St,3,3330653,40.67929,-73.96928
+194,Georges True Value Hardware,1234 St Johns Pl,BROOKLYN,1234,St Johns Pl,3,,40.67059771,-73.93749044
+195,CITI HARDWARE & LUMBER INC,557B McDonald Ave,BROOKLYN,557,McDonald Ave,3,,40.64063361,-73.9788017
+196,Nat's Hardware,576 Wilson Ave,BROOKLYN,576,Wilson Ave,3,3079292,40.69041,-73.90801
+197,The Home Depot,2970 Cropsey Ave,BROOKLYN,2970,Cropsey Ave,3,3348838,40.58142,-73.9881
+198,Weinsteins,327 Kingston Ave,BROOKLYN,327,Kingston Ave,3,3033378,40.66802,-73.94202
+199,Brooklyn Paint & Home Center,1010 Coney Island Ave,BROOKLYN,1010,Coney Island Ave,3,,40.63286129,-73.96722692
+200,Brooklyn Building supply & Hardware Inc,4104 Avenue D,BROOKLYN,4104,Avenue D,3,3112743,40.64137,-73.93774
+201,Murry's True Value,4214 Avenue D,BROOKLYN,4214,Avenue D,3,3112826,40.64145,-73.93652
+202,New York Lumber Co Inc,600 Utica Ave,BROOKLYN,600,Utica Ave,3,,40.65897991,-73.93154578
+203,Crown Heights Hardware,1373 Bedford Ave,BROOKLYN,1373,Bedford Ave,3,3805761,40.6761,-73.9529
+204,Majestic Home Improvement,241 59th St,BROOKLYN,241,59th St,3,,40.64346724,-74.02093158
+205,Full Line Hardware & Houseware,4018 18th Ave,BROOKLYN,4018,18th Ave,3,3127623,40.6326,-73.97386
+206,Yahya hardware Store,354 Utica Ave,BROOKLYN,354,Utica Ave,3,3038124,40.6659,-73.93166
+207,Best Buys True Value,2255 86th St,BROOKLYN,2255,86th St,3,,40.60130181,-73.99222819
+208,Richelieu Hardware,60-01 31st Ave,QUEENS,6001,31st Ave,3,,40.75795299,-73.90233939
+209,Ihome Building Supply INC ????????,96 Avenue U,BROOKLYN,96,Avenue U,3,,40.59598147,-73.98085911
+210,Deco Ware Hardware,944 McDonald Ave,BROOKLYN,944,McDonald Ave,3,3336276,40.63106,-73.97758
+211,Ocean Hardware depot,1807 Church Ave,BROOKLYN,1807,Church Ave,3,3116521,40.64978,-73.96288
+212,Wonder House Supply INC.,2019 Stillwell Ave,BROOKLYN,2019,Stillwell Ave,3,,40.59740949,-73.98504316
+213,Marine Park Hardware & Benjamin Moore Paints,3502 Ave. S,BROOKLYN,3502,Ave. S,3,3240913,40.60917,-73.93179
+214,Table Top Shop Inc,5118 13th Ave,BROOKLYN,5118,13th Ave,3,3138366,40.63367,-73.99394
+215,One Stop Hardware II,9105 Avenue L,BROOKLYN,9105,Avenue L,3,3231578,40.63613,-73.89974
+217,Allstar Locksmith and Hardware,284 Flatbush Ave,BROOKLYN,284,Flatbush Ave,3,3018943,40.67841,-73.97369
+218,Foundation Building Materials/ FBM,744 McDonald Ave,BROOKLYN,744,McDonald Ave,3,3126559,40.63627,-73.97856
+219,NYC HARDWARE,7403 5th Ave,BROOKLYN,7403,5th Ave,3,3148360,40.63003,-74.0221
+220,Handy Hardware,2123 Regent Pl,BROOKLYN,2123,Regent Pl,3,3825289,40.64652,-73.95845
+221,BLG Hardware,439 Malcolm X Blvd,BROOKLYN,439,Malcolm X Blvd,3,,40.67968882,-73.92915603
+222,Key Made,760 Nostrand Ave.,BROOKLYN,760,Nostrand Ave.,3,3031513,40.67272,-73.9505
+223,One Stop Hardware,9415 Avenue L,BROOKLYN,9415,Avenue L,3,,40.63760188,-73.89724383
+224,Boro Park Hardware & Building Material Supply Inc.,3616 14th Ave,BROOKLYN,3616,14th Ave,3,3125058,40.64075,-73.98289
+225,Building Depot,2270 65th St,BROOKLYN,2270,65th St,3,3173370,40.61258,-73.97989
+226,AWS - Advantage Wholesale Supply,172 Empire Blvd,BROOKLYN,172,Empire Blvd,3,3034759,40.66331,-73.95614
+227,Corner Hardware,5337 Preston Ct,BROOKLYN,5337,Preston Ct,3,,40.63837587,-73.9245206
+228,NYC Kitchen and Bath,183 7th St,BROOKLYN,183,7th St,3,3021551,40.67337,-73.99094
+229,RH Outlet Brooklyn,67 34th St,BROOKLYN,67,34th St,3,,40.65739426,-74.00611562
+230,Sols Hardware & Home Furnishings,513 Kings Hwy,BROOKLYN,513,Kings Hwy,3,3177247,40.60461,-73.97054
+231,Prospect Building Supply,599 Coney Island Ave,BROOKLYN,599,Coney Island Ave,3,3319776,40.6426,-73.96945
+233,IKEA,1 Beard St,BROOKLYN,1,Beard St,3,,40.67147911,-74.01111487
+234,Home Fixtures LLC,5323 Fort Hamilton Pkwy,BROOKLYN,5323,Fort Hamilton Pkwy,3,,40.63588805,-74.00086365
+235,STRIPPER STAINS AND SUPPLIES INC,1184 Bedford Ave,BROOKLYN,1184,Bedford Ave,3,,40.68367664,-73.95414414
+236,Tarzian West for Housewares,194 7th Ave,BROOKLYN,194,7th Ave,3,,40.67109708,-73.97830875
+237,S & K Wall & Floor Covering,901 65th St,BROOKLYN,901,65th St,3,,40.63136397,-74.00996638
+238,Los chino de correa y fan,270 Randolph St,BROOKLYN,270,Randolph St,3,3325621,40.71045,-73.92158
+239,Tenda Discount Inc,6801 Fort Hamilton Pkwy,BROOKLYN,6801,Fort Hamilton Pkwy,3,,40.62895845,-74.01133042
+240,Gates Lumber,866 Madison St,BROOKLYN,866,Madison St,3,3039682,40.68766,-73.92299
+241,A J Housewares,2251 86th St,BROOKLYN,2251,86th St,3,,40.60130815,-73.99223576
+242,The Home Depot,75-09 Woodhaven Blvd,QUEENS,7509,Woodhaven Blvd,4,,40.70846445,-73.85803259
+243,The Home Depot,73-01 25th Ave,QUEENS,7301,25th Ave,4,4530769,40.76316,-73.89511
+244,The Home Depot,50-10 Northern Blvd,QUEENS,5010,Northern Blvd,4,,40.75228511,-73.91226994
+245,The Home Depot,131-35 Avery Ave,QUEENS,13135,Avery Ave,4,,40.75266595,-73.83509943
+246,The Home Depot,11220 Rockaway Blvd,QUEENS,11220,Rockaway Blvd,4,,40.67607916,-73.82665905
+247,The Home Depot,13220 Merrick Blvd,QUEENS,13220,Merrick Blvd,4,,40.67700081,-73.75751935
+248,The Home Depot,59-15 Maurice Ave,QUEENS,5915,Maurice Ave,4,4619469,40.72702,-73.90943
+249,The Home Depot,124-04 31st Ave,QUEENS,12404,31st Ave,4,4438019,40.76731,-73.84395
+250,Platz Hardware True Value,65-25 Forest Ave,QUEENS,6525,Forest Ave,4,4083710,40.708,-73.90343
+251,Ecua Hardware Inc,10215 Jamaica Ave,QUEENS,10215,Jamaica Ave,4,,40.69534623,-73.84471201
+252,The Home Depot,92-30 168th St,QUEENS,9230,168th St,4,,40.70515929,-73.79273693
+253,Big Apple Hardware & Houseware Inc.,15317 Union Tpke,QUEENS,15317,Union Tpke,4,,40.71985288,-73.81008775
+254,Jamaica Hardware & Paints inc.,13101 Jamaica Ave,QUEENS,13101,Jamaica Ave,4,,40.7023093,-73.82110028
+255,NHS HARDWARE - JACKSON HEIGHTS,8806 37th Ave,QUEENS,8806,37th Ave,4,,40.75019536,-73.87852949
+256,Forest Hills Hardware Store,11232 Queens Blvd,QUEENS,11232,Queens Blvd,4,,40.71756916,-73.8362405
+257,The Builder's Zone,69-09 164th St,QUEENS,6909,164th St,4,4149771,40.73267,-73.8044
+258,Shop-Rite Hardware True Value,104-12 Liberty Ave,QUEENS,10412,Liberty Ave,4,,40.6819683,-73.8364972
+259,Queens Paint & Home Center Inc.,11643 Queens Blvd,QUEENS,11643,Queens Blvd,4,,40.71573793,-73.83241653
+260,HSH HARDWARE STORE,113-14 Sutphin Blvd,QUEENS,11314,Sutphin Blvd,4,4259003,40.68643,-73.79437
+261,Jere's Hardware,17305 Horace Harding Expy,QUEENS,17305,Horace Harding Expy,4,,40.73901759,-73.7963437
+262,Maspeth Hardware,6320 Flushing Ave,QUEENS,6320,Flushing Ave,4,,40.72230028,-73.90164342
+263,Beplat Hardware True Value,150-01 Roosevelt Ave,QUEENS,15001,Roosevelt Ave,4,4114047,40.76393,-73.81423
+264,"YY Hardware & Supplies, Inc.",93-24 Corona Ave.,QUEENS,9324,Corona Ave.,4,4046046,40.74217,-73.87048
+265,Hardware City,7906 Jamaica Ave,QUEENS,7906,Jamaica Ave,4,,40.69186389,-73.8629973
+266,Junction Hardware and Houseware Inc.,4114 Junction Blvd,QUEENS,4114,Junction Blvd,4,,40.74708611,-73.86866181
+267,Bell Home & Hardware,47-28 Bell Blvd,QUEENS,4728,Bell Blvd,4,4157334,40.75589,-73.76765
+268,Lakewood Hardware Inc.,82-31 51st Ave,QUEENS,8231,51st Ave,4,,40.73809208,-73.8808413
+269,Best Home Center,16594 Baisley Blvd,QUEENS,16594,Baisley Blvd,4,,40.67841446,-73.77714922
+270,Flushing Home Center,4121 Kissena Blvd,QUEENS,4121,Kissena Blvd,4,,40.7581901,-73.82868277
+271,Broadway Hardware & Paint Center,2917 Broadway,QUEENS,2917,Broadway,4,,40.76258114,-73.92625567
+272,Persaud Hardware & Housewares,12315 Liberty Ave,QUEENS,12315,Liberty Ave,4,,40.68780715,-73.82072147
+273,Cross Bay Hardware Co,16254 Cross Bay Blvd,QUEENS,16254,Cross Bay Blvd,4,,40.65257026,-73.83853569
+274,Angelo True Value Paint & Hardware,148-27 Hillside Ave.,QUEENS,14827,Hillside Ave.,4,4207419,40.70649,-73.80812
+275,ElmHurst Hardware & Household Inc,80-19 Broadway,QUEENS,8019,Broadway,4,,40.74392301,-73.88447445
+276,Empire Hardware & Supply Inc.,11218 Liberty Ave,QUEENS,11218,Liberty Ave,4,,40.6851096,-73.82955047
+277,Dagim Hardware & Housewares,9900 63rd Rd,QUEENS,9900,63rd Rd,4,,40.73240317,-73.85680674
+278,Straus Paint & Hardware,2809 Steinway St,QUEENS,2809,Steinway St,4,,40.76506171,-73.91369113
+279,Hempstead Building Supply & Hardware,217-68 Hempstead Ave,QUEENS,21768,Hempstead Ave,4,,40.71406273,-73.73956983
+280,108th Street Hardware and Discount Inc.,64-38 108th St,QUEENS,6438,108th St,4,4051447,40.73172,-73.84937
+281,"Brite - Hardware, Locksmith, Bldg Supply",112-15 Jamaica Ave,QUEENS,11215,Jamaica Ave,4,4192677,40.69791,-73.83604
+282,Jamaica Building Supply Inc,178-01 Jamaica Ave,QUEENS,17801,Jamaica Ave,4,4211502,40.70822,-73.78328
+283,Sunnyside Hardware & Locksmith,40-16 Queens Blvd,QUEENS,4016,Queens Blvd,4,,40.74335032,-73.92375496
+284,Better Line Hardware,43-24 Greenpoint Ave,QUEENS,4324,Greenpoint Ave,4,4002116,40.74101,-73.92117
+285,Greenfield Brothers,21139 Jamaica Ave,QUEENS,21139,Jamaica Ave,4,,40.71562546,-73.74805134
+286,A to Z Hardware,113-07 Jamaica Ave,QUEENS,11307,Jamaica Ave,4,4192698,40.69817,-73.83553
+287,Whitestone Hardware Corp.,12-48 150th St,QUEENS,1248,150th St,4,4102475,40.78945,-73.81435
+288,Flushing Hardware,4590 161st St,QUEENS,4590,161st St,4,,40.75399902,-73.80606628
+289,Signature Paints & Home Center,45-24 46th St,QUEENS,4524,46th St,4,,40.74267363,-73.91894241
+290,Springfield Hardware,6134 Springfield Blvd,QUEENS,6134,Springfield Blvd,4,,40.74825777,-73.75655532
+291,Mogual Hardware,21244 91st Ave,QUEENS,21244,91st Ave,4,,40.72122695,-73.74770509
+292,Lowe's Home Improvement,253-01 Rockaway Blvd,QUEENS,25301,Rockaway Blvd,4,4836811,40.63605,-73.74026
+293,Harrys Paint & Hardware True Value,8203 Eliot Ave,QUEENS,8203,Eliot Ave,4,,40.72600705,-73.87748945
+294,R & R General Supply,1807 Astoria Blvd,QUEENS,1807,Astoria Blvd,4,,40.77240785,-73.92707309
+295,Hardware & Paint,204-3 Hillside Ave.,QUEENS,2043,Hillside Ave.,4,,40.72088293,-73.76136586
+296,RGF Home Decor,180-02 Union Tpke,QUEENS,18002,Union Tpke,4,4155492,40.7268,-73.7876
+297,MAFHOMEIMPROVEMENT1,75-24 95th Ave,QUEENS,7524,95th Ave,4,4186843,40.68249,-73.86287
+298,Bartunek Hardware Inc,28-07 23rd Ave,QUEENS,2807,23rd Ave,4,4017631,40.77554,-73.91405
+299,Towne Paint & Hardware,6842 Main St,QUEENS,6842,Main St,4,,40.73223034,-73.82513687
+300,Homelegant Floor & Cabinet Inc,63-08 Woodhaven Blvd,QUEENS,6308,Woodhaven Blvd,4,4069585,40.72401,-73.86947
+301,All For Kitchen & Bath in Grand Design,73-20 Grand Ave,QUEENS,7320,Grand Ave,4,,40.72961592,-73.88934544
+303,Locksmith Hardware,6247 Woodhaven Blvd,QUEENS,6247,Woodhaven Blvd,4,,40.72573019,-73.86957838
+304,The Home Depot,600 Hempstead Turnpike,QUEENS,600,Hempstead Turnpike,4,,40.70980711,-73.70235548
+305,M.M. Housewares Hardware,9404 Jamaica Ave,QUEENS,9404,Jamaica Ave,4,,40.69393445,-73.8510392
+306,Mazzone Ace Hardware,245-251 Beach 116th St,QUEENS,245251,Beach 116th St,4,,40.5806271,-73.83790549
+307,Safehouse Locksmith & Hardware,188-11 Union Tpke,QUEENS,18811,Union Tpke,4,,40.72947584,-73.78079707
+308,Elect Kitchen & Bath,133-05 32nd Ave,QUEENS,13305,32nd Ave,4,,40.76748546,-73.83639281
+309,At Home,6135 Junction Blvd,QUEENS,6135,Junction Blvd,4,,40.73362684,-73.86407586
+310,Costello's Ace Hardware of New Hyde Park,1518 Union Tpke,QUEENS,1518,Union Tpke,4,,40.75340097,-73.69188584
+311,DurbinPaz,14312 84th Rd,QUEENS,14312,84th Rd,4,,40.71260175,-73.81366911
+312,Jamaica Salvage & Liquidators,18419 Jamaica Ave,QUEENS,18419,Jamaica Ave,4,,40.70944784,-73.7753747
+313,Queens Plumbing Supply,43-01 37th St,QUEENS,4301,37th St,4,4003143,40.74564,-73.92722
+314,Advance Building Products,4816 70th St,QUEENS,4816,70th St,4,,40.73786276,-73.89431344
+315,Gallery Home Store,105-35 180th St,QUEENS,10535,180th St,4,,40.70377029,-73.77805248
+316,AL Painting & Remodeling,4623 215th St,QUEENS,4623,215th St,4,,40.7578407,-73.76641986
+317,New Zone Inc ?????,59-25 Fresh Meadow Ln,QUEENS,5925,Fresh Meadow Ln,4,4148768,40.73961,-73.79667
+318,Houseware World,9896 Queens Blvd,QUEENS,9896,Queens Blvd,4,,40.72709708,-73.85509798
+319,Marino's Hardware,84-05 Northern Blvd,QUEENS,8405,Northern Blvd,4,4034626,40.75603,-73.88328
+320,The Home Depot,545 Targee St,STATEN ISLAND,545,Targee St,5,5112730,40.61284,-74.084
+321,The Home Depot,2501 Forest Ave,STATEN ISLAND,2501,Forest Ave,5,,40.62925075,-74.17262276
+322,Lowe's Home Improvement,2171 Forest Ave,STATEN ISLAND,2171,Forest Ave,5,5141899,40.62775,-74.16243
+323,Lowe's Home Improvement,2790 Arthur Kill Rd,STATEN ISLAND,2790,Arthur Kill Rd,5,5158451,40.54737,-74.22389
+324,Reimans True Value Hardware,1825 Victory Blvd,STATEN ISLAND,1825,Victory Blvd,5,5010500,40.61337,-74.12441
+325,Costello's Ace Hardware of Staten Island,1677 Victory Blvd,STATEN ISLAND,1677,Victory Blvd,5,5009514,40.61356,-74.12
+326,Dembner's Hardware & Paints,68 Victory Blvd,STATEN ISLAND,68,Victory Blvd,5,5014537,40.63804,-74.07883
+327,Capital Paint & True Value Hardware,3155 Amboy Rd,STATEN ISLAND,3155,Amboy Rd,5,,40.563958,-74.13291306
+328,South Side Hardware Co,4034 Hylan Blvd,STATEN ISLAND,4034,Hylan Blvd,5,5068137,40.54107,-74.14664
+329,Bernabe Home Improvement Inc.,117 Lindenwood Rd,STATEN ISLAND,117,Lindenwood Rd,5,5066272,40.54764,-74.15138
+330,Garber Building Supplies Co,98 Greenfield Ave,STATEN ISLAND,98,Greenfield Ave,5,5042478,40.61834,-74.07323
+331,The Home Depot,2750 Veterans Rd W,STATEN ISLAND,2750,Veterans Rd W,5,5149741,40.52868,-74.22868
+332,Hylan Supply,2249 Hylan Blvd,STATEN ISLAND,2249,Hylan Blvd,5,5052171,40.57595,-74.10471
+333,Harbor Freight Tools,2295 Forest Ave,STATEN ISLAND,2295,Forest Ave,5,5028373,40.62786,-74.16588
+334,APC Home Improvements Inc.,404 Rathbun Ave,STATEN ISLAND,404,Rathbun Ave,5,5081029,40.54148,-74.18896
+335,Tri Star Home Center,1912 Richmond Terrace,STATEN ISLAND,1912,Richmond Terrace,5,,40.63732963,-74.12882945
+336,Metacrylics NY,3521 Victory Blvd,STATEN ISLAND,3521,Victory Blvd,5,5036689,40.60209,-74.17624
+337,Innovation Kitchen & Bath,651 Targee St,STATEN ISLAND,651,Targee St,5,5043484,40.61078,-74.08596
+338,Statwood Home Improvements,1475 Hylan Blvd,STATEN ISLAND,1475,Hylan Blvd,5,5095415,40.59248,-74.08772
+339,Garber's Do It Best Hardware,4890 Arthur Kill Rd,STATEN ISLAND,4890,Arthur Kill Rd,5,5103854,40.52281,-74.23878
+340,Coastal Supply Group,135 New Dorp Ln,STATEN ISLAND,135,New Dorp Ln,5,5052603,40.57401,-74.11549
+341,HomeGoods,2718 Hylan Blvd,STATEN ISLAND,2718,Hylan Blvd,5,,40.56505911,-74.1131237
+342,HomeGoods,2875 Richmond Ave,STATEN ISLAND,2875,Richmond Ave,5,5127010,40.57478,-74.16679
+343,CDAWG Enterprises,402 Lisk Ave,STATEN ISLAND,402,Lisk Ave,5,5121420,40.6221,-74.16328
+344,AEG Home Improvement Corporation,1110 South Ave,STATEN ISLAND,1110,South Ave,5,5141913,40.61423,-74.1773
+345,Inhaus Kitchen & Bath,1736 Richmond Ave,STATEN ISLAND,1736,Richmond Ave,5,5036636,40.60611,-74.16264
+346,Stallion Home Improvement,373 Mill Rd,STATEN ISLAND,373,Mill Rd,5,5055445,40.56001,-74.11353
+347,Awesome Home Improvement LLC,4 Cortelyou Ave,STATEN ISLAND,4,Cortelyou Ave,5,5135687,40.55991,-74.16518
+348,Affordable Home Improvements,486 Industrial Loop W,STATEN ISLAND,486,Industrial Loop W,5,,40.54905421,-74.23148259
+349,LoPorto Fence & Home Improvements,24 Dumont Ave,STATEN ISLAND,24,Dumont Ave,5,5049001,40.59483,-74.08753

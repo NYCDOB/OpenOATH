@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+  <title>Open OATH Summonses</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://nycdob.github.io/ActiveNB_A1enlargements/keen/keen-dashboards.css" />
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.css">
+  <link href="https://nycdob.github.io/ActiveNB_A1enlargements/build/nv.d3.css" rel="stylesheet" type="text/css">
+  <style>
+
+
+#map {
+	height: 100%;
+	width: 100%;
+	pointer-events: all;
+}
+
+.logo{
+	/* background-image: url('data/dob_transparent_highres.png'); */
+	background-image: url('https://raw.githubusercontent.com/NYCDOB/CommunityProfiles_v2/gh-pages/dob_logo_white_transparent.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	background-size: 80px;
+	height: 50px;
+	width: 110px;	  
+}
+.pointOATH{
+	fill: #BD0000;
+	fill-opacity: .8;
+	stroke: #fff;
+}
+.pointHomeImpStores{
+	fill: #FF8000;
+	fill-opacity: .8;
+	stroke: #fff;
+}
+
+.tooltip {
+	color: #222;
+	background: #fff;
+	padding: .5em;
+	text-shadow: #f5f5f5 0 1px 0;
+	border-radius: 7px; 
+	box-shadow: 0px 0px 2px 0px #a6a6a6; 
+	opacity: 0.9; 
+	position: absolute;
+	visibility: hidden;
+}
+
+
+@media( max-width:1200px){
+	.dobmain	{
+		padding-top:50px;
+	}
+	.legendShed {
+		visibility:hidden;
+	}
+	.legendCD {
+		visibility:hidden;
+	}
+	.ui {
+		margin-top: -150px;
+	}
+}
+
+@media ( max-width:2100px){
+	.summarytxt_sheds {
+		font-size: 12px !important;
+	}
+	.summarytxt_avgAge {
+		font-size: 12px !important;
+	}
+	.summarytxt_feet {
+		font-size: 12px !important;
+	}
+	#summary1_sheds {
+		font-size: 25px !important;
+	}
+	#summary2_avgAge {
+		font-size: 25px !important;
+	}
+	#summary3_feet {
+		font-size: 25px !important;
+	}
+	.summarytxt {
+		font-size: 12px !important;
+	}
+}
+
+.dataTables_filter input { width: 150px }
+
+#loadpage{
+	margin: auto;
+	padding-top: 300px;
+}
+
+svg {
+	display: block;
+}
+
+.legendShed {
+		padding: 6px 10px;
+		font: 14px/16px Arial, Helvetica, sans-serif;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		border: 2px solid #707070;
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 7px;
+		width: 160px;
+
+}
+.legendCD {
+		padding: 6px 10px;
+		font: 14px/16px Arial, Helvetica, sans-serif;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		border: 2px solid #707070;
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 7px;
+		width: 160px;
+
+
+}
+.legendCD i {
+		width: 15px;
+		height: 15px;
+		float: left;
+		margin-right: 8px;
+		opacity: 1;
+}
+#legendTitleCD {
+		text-align: center;
+		margin-bottom: 15px;
+		font-variant: small-caps;
+		font-size: 15px;
+		font-weight: bold;
+}
+.symbolsContainerCD {
+		float: left;
+		margin-left: 50px;
+}
+
+
+#legendTitleSQFT {
+		text-align: center;
+		margin-bottom: 15px;
+		font-variant: small-caps;
+		font-size: 15px;
+		font-weight: bold;
+}
+.symbolsContainerSQFT {
+		float: left;
+		margin-left: 50px;
+}
+.legendCircleSQFT {
+		border-radius: 50%;
+		border: 1px solid #fff;
+		/* background: rgba(0, 159, 255, .4); */
+		background: rgba(84, 122, 149, .4);
+		display: inline-block;
+}
+.legendValueSQFT {
+		position: absolute;	
+		right: 8px;
+}
+
+
+	.ui {
+		top: 10px;
+		left: 50px;
+		padding: 8px;
+		position: absolute;
+		background-color: #fff;
+		border: 2px solid #707070;
+		border-radius: 7px;
+		width: 330px;
+	}
+	.dropCD {
+		top: 80px;
+		left: 50px;
+		padding: 8px;
+		position: absolute;
+		background-color: #fff;
+		border: 2px solid #707070;
+		border-radius: 7px;
+		width: 330px;
+	}	
+	.point_OATH {
+	  position: relative;
+	  top: 3px;
+	  height: 15px;
+	  width: 15px;
+	  background-color: #FF8000;
+	  opacity: 80%;
+	  border-radius: 50%;
+	  display: inline-block;
+	}
+	
+	.point_HomeImpStores {
+	  position: relative;
+	  top: 3px;
+	  height: 15px;
+	  width: 15px;
+	  background-color: #004DFF;
+	  opacity: 80%;
+	  border-radius: 50%;
+	  display: inline-block;
+	}
+	
+	.subCycle1A {
+	  position: relative;
+	  top: 3px;
+	  height: 15px;
+	  width: 25px;
+	  background-color: #B75236;
+	  opacity: 60%;
+	  display: inline-block;
+	}
+	
+	.subCycle1B {
+	  position: relative;
+	  top: 3px;
+	  height: 15px;
+	  width: 25px;
+	  background-color: #428FA7;
+	  opacity: 60%;
+	  display: inline-block;
+	}
+	
+	.subCycle1C {
+	  position: relative;
+	  top: 3px;
+	  height: 15px;
+	  width: 25px;
+	  background-color: #264863;
+	  opacity: 60%;
+	  display: inline-block;
+	}
+	
+	.legend_label{
+		padding-left: 10px;
+		font-size: 14px;
+		display: inline-block;
+		font-variant: small-caps;
+	}
+	.legend_label2{
+		padding-left: 1px;
+		font-size: 12px;
+		display: inline-block;
+		font-variant: small-caps;
+	}	
+	.legend_title{		
+		font-variant: small-caps;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.navbar-nav>li>a:visited{
+		background-color:RGB(61,74,87);
+	}
+	
+</style>
+<body>
+<div class="container">
+			<div class="navbar navbar-fixed-top" role="navigation" style="color:white;background-color:RGB(61,74,87);">
+			<a class="logo" href="https://www1.nyc.gov/site/buildings/index.page" target="_blank"> </a>
+				<div class="nav navbar-nav" style="margin-left:15px;margin-top:10px;font-size:26px;font-weight:bold;text-align:center;">
+					OPEN OATH SUMMONSES - CLASS 1
+				</div>
+			</div>
+</div>
+<div class="container-fluid dobmain" style="margin-top:60px;">
+	<div class="row">
+		  <div class="col-lg-12" style="height:89vh">
+			  <div class="chart-stage" id="map-container" style="border:1px solid black;height:100%;width:100%">
+				<div id="map">
+				<svg></svg>
+				
+
+				
+					<div id="ui-container" class="ui" style="z-index: 401">				
+
+							<span class="point_OATH"></span><span class="legend_label">Open OATH Summonses - Class 1</span>							
+						<br/>
+							<span class="point_HomeImpStores"></span><span class="legend_label">Home Improvement Stores</span>							
+					</div>
+					<div id="" class="dropCD" style="z-index: 401">
+						<form id="searchCourse" class="" style="padding-left:10px;font-size:1.3em;z-index: 401;">					
+							<!-- <label for="" style="color:#666666;">Zoom to Community District: </label> -->
+									<select id="dropdownCD" >
+										<option value="cdAll" selected="selected">Zoom to Community District</option>
+										<optgroup label="Manhattan">
+											<option value='101'>101</option>	
+											<option value='102'>102</option>
+											<option value='103'>103</option>
+											<option value='104'>104</option>
+											<option value='105'>105</option>
+											<option value='106'>106</option>
+											<option value='107'>107</option>
+											<option value='108'>108</option>
+											<option value='109'>109</option>
+											<option value='110'>110</option>
+											<option value='111'>111</option>
+											<option value='112'>112</option>
+											<option value='164'>164</option>
+										</optgroup>
+										<optgroup label="Bronx">
+											<option value='201'>201</option>
+											<option value='202'>202</option>
+											<option value='203'>203</option>
+											<option value='204'>204</option>
+											<option value='205'>205</option>
+											<option value='206'>206</option>
+											<option value='207'>207</option>
+											<option value='208'>208</option>
+											<option value='209'>209</option>
+											<option value='210'>210</option>
+											<option value='211'>211</option>
+											<option value='212'>212</option>
+											<option value='226'>226</option>
+											<option value='227'>227</option>
+											<option value='228'>228</option>
+										</optgroup>
+										<optgroup label="Brooklyn">
+											<option value='301'>301</option>
+											<option value='302'>302</option>
+											<option value='303'>303</option>
+											<option value='304'>304</option>
+											<option value='305'>305</option>
+											<option value='306'>306</option>
+											<option value='307'>307</option>
+											<option value='308'>308</option>
+											<option value='309'>309</option>
+											<option value='310'>310</option>
+											<option value='311'>311</option>
+											<option value='312'>312</option>
+											<option value='313'>313</option>
+											<option value='314'>314</option>
+											<option value='315'>315</option>
+											<option value='316'>316</option>
+											<option value='317'>317</option>
+											<option value='318'>318</option>
+											<option value='355'>355</option>
+											<option value='356'>356</option>
+										</optgroup>
+										<optgroup label="Queens">
+											<option value='401'>401</option>
+											<option value='402'>402</option>
+											<option value='403'>403</option>
+											<option value='404'>404</option>
+											<option value='405'>405</option>
+											<option value='406'>406</option>
+											<option value='407'>407</option>
+											<option value='408'>408</option>
+											<option value='409'>409</option>
+											<option value='410'>410</option>
+											<option value='411'>411</option>
+											<option value='412'>412</option>
+											<option value='413'>413</option>
+											<option value='414'>414</option>
+											<option value='480'>480</option>
+											<option value='481'>481</option>
+											<option value='482'>482</option>
+											<option value='483'>483</option>
+											<option value='484'>484</option>
+										</optgroup>
+										<optgroup label="Staten Island">
+											<option value='501'>501</option>
+											<option value='502'>502</option>
+											<option value='503'>503</option>
+											<option value='595'>595</option>
+										</optgroup>
+									</select>
+						</form>					
+					</div>
+				</div>
+			  </div>
+		  </div>
+	</div>
+	<p class="small text-muted" style=" position:relative; bottom:0px;">Built by DOB Analytics <a href="https://www1.nyc.gov/site/buildings/dob/analytics-reports.page" target="_blank">Dev Squad</a> 
+	<!-- | <a id="dlData" href="no-script.html">Download Data (csv)</a> -->
+	</p>	
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-format@3"></script>
+<script src="https://nycdob.github.io/EssentialActiveConstruction/Leaflet.D3SvgOverlay-master/L.D3SvgOverlay.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.js"  type="text/javascript" charset="utf8" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"></script>
+<script src="https://nycdob.github.io/ActiveNB_A1enlargements/build/nv.d3.js"></script>
+<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+<script type="text/javascript" src="https://nycdob.github.io/ActiveNB_A1enlargements/keen/keen.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.1.1/js/dataTables.rowGroup.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.20/api/fnSortNeutral.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	today = mm + '/' + dd + '/' + yyyy;	
+	d3.select("#today").html(today);
+	var latlong = [];
+	var selection = [];
+	var formatDate = d3.time.format("%-m/%-d/%Y").parse;
+	var numberFormat = d3.format(",.0f");
+	var legendNumFormat = d3.format(",");
+    L.Control.include({
+      _refocusOnMap: L.Util.falseFn // Do nothing.
+    });	
+var map = L.map('map').setView([40.71867997392875, -73.97022782781461], 14);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
+
+var tooltip = d3.select('#map').append('div')//var tooltip = d3.select('body').append('div')
+	.on('mouseover', function(d, i){
+		tooltip.transition().duration(0);
+	})
+	.on('mouseout', function(d, i){
+		tooltip.transition().delay(500).style('visibility', 'hidden');
+	})
+	.attr('class', 'tooltip');
+	
+var width = $("#map").width(),
+	height = $("#map").height(),
+	points = [],
+	table_map = [],
+	filteredData,
+	latLngs = [],
+	pointsOverlaySQFT,
+	legendShed,
+	legendCD,
+	cat,
+	cdSheds,
+	sheds_CD,
+	commDistSheds,
+	homeImprovement,
+	selectedCD,
+	radius;
+	
+onload = ready();
+
+	
+function ready(){
+	
+	var pointsOverlay = L.d3SvgOverlay(function(sel,proj){
+
+	var pointsUpd = sel.selectAll('circle').data(points);
+
+	pointsUpd.enter()
+		.append('circle')
+		.attr('cx',function(d){return proj.latLngToLayerPoint(d.latLng).x;})
+		.attr('cy',function(d){return proj.latLngToLayerPoint(d.latLng).y;})
+		.attr('class', function(d){
+			if(d.BldgClass=='G0' || d.BldgClass=='G1' || d.BldgClass=='G2' || d.BldgClass=='G6'|| d.BldgClass=='G7'){
+				return 'pointOATH';
+			} else {
+				return 'pointHomeImpStores';
+			}
+		})
+		.on('click', function(d){
+			tooltip.style("visibility", "visible");
+					tooltip.html(
+						'BIN: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + d.BIN + '&go4=+GO+&requestid=0" target="_blank">' + d.BIN + '</a>' + '</br>' +								
+						'ADDRESS: '+ d.houseNum +' '+d.street+ ', ' + d.boro + '</br>' +
+						'BLOCK: ' + d.block + '</br>' +	
+						'LOT: ' + d.lot + '</br>' +	
+						'COMMUNITY DISTRICT: ' + d.CD + '</br>' +
+						'ECB Vio#: ' + d.vioNum + '</br>' +
+						'VIOLATION SEVERITY: ' + d.vioSeverity + '</br>' +
+						'VIOLATION ISSUED DATE: ' + d.vioIssuedDate + '</br>'
+					)
+			if (d3.event.pageX > (width - 200)) {
+			   tooltip.style("left", (d3.event.pageX - 350) + "px");
+			} else {
+			   tooltip.style("left", (d3.event.pageX + 20) + "px")
+					.style("top", (d3.event.pageY -30) + "px");
+			}
+			if (d3.event.pageY > (height - 150)) {
+			   tooltip.style("top", (d3.event.pageY -100) + "px");
+			} else {
+			   tooltip.style("top", (d3.event.pageY -30) + "px");
+			}
+		})
+		.on("mousemove", function(d){
+			$(this).attr("style", "cursor: pointer; fill: #eef442;"); //fill-opacity: 1;");
+		})
+
+		.on("mouseout", function(){
+			//$(this).attr("style", "stroke-width: 1px;"); //fill-opacity: .5;");
+			$(this).attr("style", "stroke-width:1" / proj.scale);
+			return tooltip.transition().delay(500).style("visibility", "hidden");
+		});
+
+		pointsUpd.attr('r', 5 / proj.scale);
+		pointsUpd.attr('stroke-width', 1 / proj.scale);
+	});
+
+
+	$.getJSON("data/OATH_CD.json",function(json){
+
+		function polystyle(feature) {
+			return {
+				weight: 4,
+				color: '#8F8F8F',  //Outline color
+				fillOpacity: 0,
+				//fillColor: '#d4dcdd'
+			};
+		}
+		function forEachFeature(feature, layer) {
+			layer._leaflet_id = feature.properties.boro_cd;
+					layer.bindPopup('<p>COMMUNITY DISTRICT: ' +feature.properties.boro_cd+'</p>');	
+					//layer.on('mouseover', function() { this.setStyle({'color': '#eef442', 'weight':'5'});});
+					//layer.on('mouseout', function() { this.setStyle({'color': '#8F8F8F', 'weight':'4'});});
+					layer.myTag = 'commSheds';
+		}
+		var addGeojsonCD = function() {
+			commDistSheds = L.geoJson(json, {
+				style: polystyle,
+				onEachFeature: forEachFeature
+
+			}).addTo(map);
+			//map.setView([40.712824, -74.005999], 11);		
+		}
+		
+		addGeojsonCD();
+
+		d3.select("#dropdownCD").on('change', function(){
+			selectedCD = d3.select(this).property('value');
+			console.log(selectedCD);
+			polySelect(selectedCD);
+
+		});
+
+		var highlight = {
+			//'color': '#eef442',
+			'weight': 4,
+			color: '#8F8F8F',
+			fillOpacity: 0.2,
+			fillColor: '#eef442'
+		};		
+		var unhighlight = {
+				weight: 4,
+				color: '#8F8F8F',  //Outline color
+				fillOpacity: 0	
+				
+		};
+		
+		function polySelect(selectedCD) {
+			
+			
+			commDistSheds.eachLayer(function (layer) {
+
+	
+			layer.setStyle(unhighlight);
+			
+			  if (layer.feature.properties.boro_cd = selectedCD) {
+			  var layer = map._layers[selectedCD];
+				// Zoom to that layer.
+				console.log(layer);
+				
+				//fixes fitBounds pan
+				map.fitBounds(layer.getBounds().pad(-0.95),{
+					animate: false,
+				});
+				 
+				layer.setStyle(highlight);
+				map.invalidateSize();
+				
+			  }
+			  
+			});
+
+			
+		}
+
+	});
+
+
+	d3.csv("data/OpenOATH_Class1.csv",function(data){
+				points = data.filter(function(d) {
+					if( !isNaN(+[d.LAT]) && !isNaN(+[d.LONG]) ) {
+						return d;
+					}
+				}).map(function(d){
+				d.latLng = [+[d.LAT],+[d.LONG]];
+				d.BIN = d["BIN-Occurrence"];
+				d.vioNum = d["ECB Vio#"];
+				d.vioActive = d["Vio Active"];
+				d.houseNum = d["House# Occurrence"];
+				d.street = d["Street Occurrence"];
+				d.boro = d["Boro-Occurrence"];
+				d.CD = d["Com Bd-Occurrence"];
+				d.block = d["Block-Occurrence"];
+				d.lot = d["Lot-Occurrence"];
+				d.vioSeverity = d["Vio Severity"];
+				d.vioIssuedDate = d["Vio Issued Date"];
+			return d;
+			});
+			
+			$.getJSON("data/HomeImprovementStores.json",function(json){
+				var geojsonMarkerOptions = {
+					radius: 8,
+					fillColor: "#004DFF",
+					color: "#8F8F8F",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				};
+
+					L.geoJson(json, {
+					pointToLayer: function (feature, latlng) {
+						return L.circleMarker(latlng, geojsonMarkerOptions);
+					},
+					onEachFeature: function (feature, layer) {
+						layer.bindPopup('<p>NAME: ' +feature.properties.Name+'</br>ADDRESS: '+feature.properties.Address+', '+feature.properties.Borough+'</p>');	
+						layer.on('mouseover', function() { this.setStyle({'fillColor': '#eef442'});});
+						layer.on('mouseout', function() { this.setStyle({'fillColor': '#004DFF'});});
+						//layer.myTag = 'commSheds';					
+					}
+				}).addTo(map);	
+				pointsOverlay.addTo(map);
+
+			})
+			
+			
+			
+			d3.selectAll(".pointOATH").style("display", "block");
+			d3.selectAll(".pointHomeImpStores").style("display", "block");
+						
+			
+	});	
+
+		
+}
+
+	
+	$('#dlData').click(function(e) {
+		e.preventDefault();  //stop the browser from following
+		window.location.href = 'data/ParkingStructures.csv';
+		
+	});
+	
+});	
+
+</script>
+</body>
+</html>
