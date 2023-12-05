@@ -477,7 +477,7 @@ function ready(){
 						'BLOCK: ' + d.block + '</br>' +	
 						'LOT: ' + d.lot + '</br>' +	
 						'COMMUNITY DISTRICT: ' + d.CD + '</br>' +
-						'ECB Vio#: ' + d.vioNum + '</br>' +
+						'ECB VIO#: ' + d.vioNum + '</br>' +
 						'VIOLATION SEVERITY: ' + d.vioSeverity + '</br>' +
 						'VIOLATION ISSUED DATE: ' + d.vioIssuedDate + '</br>'
 					)
@@ -598,12 +598,12 @@ function ready(){
 				d.BIN = d["BIN-Occurrence"];
 				d.vioNum = d["ECB Vio#"];
 				d.vioActive = d["Vio Active"];
-				d.houseNum = d["House# Occurrence"];
-				d.street = d["Street Occurrence"];
-				d.boro = d["Boro-Occurrence"];
+				d.houseNum = d["P-LOW-HSEN"];
+				d.street = d["P-STREET-NAME"];
+				d.boro = d["Borough Name"];
 				d.CD = d["Com Bd-Occurrence"];
-				d.block = d["Block-Occurrence"];
-				d.lot = d["Lot-Occurrence"];
+				d.block = d["P-BLOCK"];
+				d.lot = d["P-LOT"];
 				d.vioSeverity = d["Vio Severity"];
 				d.vioIssuedDate = d["Vio Issued Date"];
 			return d;
