@@ -471,15 +471,16 @@ function ready(){
 		})
 		.on('click', function(d){
 			tooltip.style("visibility", "visible");
-					tooltip.html(
-						'BIN: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + d.BIN + '&go4=+GO+&requestid=0" target="_blank">' + d.BIN + '</a>' + '</br>' +								
+					tooltip.html( 
+						'BIN: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=1&allbin=" + d.BIN target="_blank">' + d.BIN + '</a>' + '</br>' +								
 						'ADDRESS: '+ d.houseNum +' '+d.street+ ', ' + d.boro + '</br>' +
 						'BLOCK: ' + d.block + '</br>' +	
 						'LOT: ' + d.lot + '</br>' +	
 						'COMMUNITY DISTRICT: ' + d.CD + '</br>' +
-						'ECB VIO#: ' + d.vioNum + '</br>' +
 						'VIOLATION SEVERITY: ' + d.vioSeverity + '</br>' +
-						'VIOLATION ISSUED DATE: ' + d.vioIssuedDate + '</br>'
+						'LATEST ECB VIO#: ' + d.vioNum + '</br>' +						
+						'LATEST VIOLATION ISSUED DATE: ' + d.vioIssuedDate + '</br>' +
+						'NUMBER OF OPEN VIOS: ' + d.numOpenVios + '</br>'
 					)
 			if (d3.event.pageX > (width - 200)) {
 			   tooltip.style("left", (d3.event.pageX - 350) + "px");
